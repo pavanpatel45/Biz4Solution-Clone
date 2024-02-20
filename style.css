@@ -8,7 +8,7 @@ body{
     padding:0px;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    /* width: 100vw; */
     box-sizing: border-box;
 }
 .navbar{
@@ -70,8 +70,9 @@ body{
 }
 .home{
     padding:0px;
-    margin-top:80px 0px 0px 0px;
+    /* margin-top:80px 0px 0px 0px; */
     box-sizing: border-box;
+    margin-top: 6%;
     /* width: 100vw; */
 }
 .home .home-page1{
@@ -200,6 +201,7 @@ body{
 .home .home-page3 .box{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: #f7f7f7;
     color: #2E2E2E;
     margin:0px;
@@ -327,7 +329,7 @@ body{
 
 }
 .footer{
-    width:100vw;
+    /* width:100vw; */
     padding:5%;
     display: flex;
     flex-direction: row;
